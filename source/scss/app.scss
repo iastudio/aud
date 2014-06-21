@@ -13,6 +13,9 @@
 @import "compass/utilities";
 @import "compass/reset";
 
+// Grid (JEET)
+@import 'jeet/index';
+
 // main
 @import "settings";
 @import "else";
@@ -39,6 +42,8 @@ body {
 	background: $bg-color;
 	line-height: 150%;
 	font-size: $text-size;
+
+	min-width: 960px;
 }
 
 a[href^=tel]{
@@ -56,19 +61,29 @@ a[href^=tel]{
 	overflow: hidden;
 }
 
-h1, h2, h3, h4 {
-	//color: $blue-color;
+h1, h2, h3, h4, h5, p {
 	color: #000;
-	font-weight: 200;
-	margin-bottom: 30px;
+	margin-bottom: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: bold;
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 16px;
 }
 
 p {
-	line-height: 120%;
+	line-height: 1.2;
 }
 
 strong {
@@ -87,7 +102,7 @@ a, input, textarea, .btn {
 	outline: none;
 }
 
-a, a:link, a:visited {
+a {
 	color: #000;
 	&:hover {
 		color: lighten(#000, 20%);

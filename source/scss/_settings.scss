@@ -12,5 +12,9 @@
 
 // @include gridle_register_default_states();
 
+.container {
+	@include center($max_width: 960px, $pad: 0);
+}
+
 $bg-color: #FFF;
 $text-size: 16px;

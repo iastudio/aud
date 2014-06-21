@@ -97,9 +97,6 @@
 		min-width : 481px,
 		max-width : 1024px
 	));
-	@include gridle_register_state(desktop, (
-		min-width : 1024px
-	));
 }
 
 
