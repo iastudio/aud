@@ -1,0 +1,17 @@
+header
+	.container
+		.header__bg
+			if (active != 1)
+				.header__bg--right
+		a.header__logo(href="/")
+			include ../includes/logo
+		.header__name
+		h1.header__phone 8 (423) 260-72-88
+	.container
+		nav
+			ul
+				- each item, i in navItems
+					if (active == (i + 1))
+						li.active: a(href='#') #{item}
+					else
+						li: a(href='#') #{item}

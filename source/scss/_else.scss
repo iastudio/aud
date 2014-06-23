@@ -1,0 +1,155 @@
+main {
+	position: relative;
+}
+
+blockquote {
+	padding: 0 40px;
+	position: relative;
+	margin-bottom: 35px;
+	&:before, &:after {
+		display: block;
+		position: absolute;
+		width: 22px; height: 20px;
+		font-weight: bold;
+		font-size: 60px;
+		color: #333333;
+	}
+	&:before {
+		content: '\201C';
+		top: 10px;
+		left: 0;
+	}
+	&:after {
+		content: '\201D';
+		bottom: -20px;
+		right: 5px;
+	}
+}
+
+.home {
+
+	.home__image {
+		position: absolute;
+		width: 369px; height: 528px;
+		top: -70px; right: -80px;
+		background: url('../i/chess.png') left top no-repeat;
+	}
+
+	.home__news {
+		margin-top: 100px;
+		height: 280px;
+		padding-left: 170px;
+		.home__news__item {
+
+			@include col(1/2);
+
+			.news__date {
+				color: #6abba0;
+			}
+
+            .news__date, .news__title, p {
+				margin-bottom: 15px;
+				line-height: 1.2;
+				display: block;
+            }
+
+            a.news__readmore {
+            	text-decoration: none;
+				&:after {
+					margin-left: 5px;
+					content: '\2192';
+					color: #000;
+				}
+            }
+			
+		}
+	}
+
+	.home__benefits {
+		margin-top: 85px;
+
+		.home__benefits__item {
+			@include col(4/12);
+
+			h1, span {
+				display: inline-block;
+				line-height: 48px;
+			}
+
+			h1 {
+				color: #06bfdc;
+				font-weight: bold;
+				font-size: 48px;
+				margin-bottom: 0;
+				margin-right: 14px;
+			}
+
+			span {
+				position: relative;
+				top: -14px;
+				color: #464646;
+			}
+		}
+	}
+	.home__items {
+		height: 330px;
+
+		.home__item {
+			float: left;
+			display: inline;
+			clear: none;
+			text-align: inherit;
+			width: 216px;
+			margin-left: 0%;
+			margin-right: 3%;
+
+			padding-top: 55px;
+			color: #fff;
+
+			&:first-child {
+				margin-left: 3px;
+			}
+			&:last-child {
+				padding-top: 70px;
+			}
+			h3 {
+				font-size: 18px;
+				font-weight: bold;
+				color: #fff;
+				text-align: center;
+			}
+			ul {
+				li {
+					padding-left: 25px;
+					text-indent: -14px;
+					margin-bottom: 10px;
+					line-height: 1.2;
+					&:before {
+						content: '\2014';
+						position: relative;
+						left: -5px;
+					}
+				}
+			}
+		}
+	}
+
+	blockquote, .home__slogan {
+		margin-left: 10px;
+		width: 720px;
+	}
+
+	.home__bg {
+		width: 1365px; height: 926px;
+		position: absolute;
+		top: -172px;
+		right: -230px;
+		z-index: -1;
+
+		background-image: url(../i/main_bg.png);
+		background-image: url(../i/main_bg.svg), none;
+		background-size: auto;
+		background-position: 0 0;
+		background-repeat: no-repeat;
+	}
+}

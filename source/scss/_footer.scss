@@ -1,0 +1,60 @@
+footer {
+	height: 300px;
+	padding-bottom: 60px;
+	margin-top: -90px;
+	z-index: 0;
+	position: relative;
+	padding-top: 130px;
+
+	.footer__first {
+		@include col(6/12);
+		line-height: 2.5;
+	}
+
+	.footer__second {
+		@include col(3/12);
+	}
+
+	.footer__third {
+		@include col(3/12);
+	}
+
+	.footer__content {
+		position: relative;
+		z-index: 3;
+	}
+
+	.footer__bg {
+		width: 1215px; height: 238px;
+		position: absolute;
+		top: -130px;
+		left: -160px;
+		z-index: -3;
+
+		background-image: url(../i/footer_bg.png);
+		background-image: url(../i/footer_bg.svg), none;
+		background-size: auto;
+		background-position: 0 0;
+		background-repeat: no-repeat;
+	}
+	.footer__bg__left {
+		width: 297px; height: 334px;
+		position: absolute;
+		top: -108px;
+		left: 0;
+		z-index: -1;
+
+		background-image: url(../i/footer_bg_2.png);
+		background-image: url(../i/footer_bg_2.svg), none;
+		background-size: auto;
+		background-position: 0 0;
+		background-repeat: no-repeat;
+	}
+
+	.footer__image {
+		position: absolute;
+		width: 253px; height: 195px;
+		top: -150px; left: 40px;
+		background: url('../i/house.png') left top no-repeat;
+	}
+}

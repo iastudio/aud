@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1215px" height="238px" viewBox="0 0 1215 238" enable-background="new 0 0 1215 238" xml:space="preserve">
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-2.083715e-04" y1="79.8474" x2="113" y2="79.8474">
+		<stop  offset="0" style="stop-color:#B19A53"/>
+		<stop  offset="1" style="stop-color:#A5D3CD"/>
+	</linearGradient>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_1_)" d="M0,54l113-16.306L103,67l-66,55L0,54z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="1164.5" y1="128.0001" x2="1164.5" y2="1.180552e-04">
+		<stop  offset="0" style="stop-color:#29909F"/>
+		<stop  offset="1" style="stop-color:#70CDDD"/>
+	</linearGradient>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_2_)" d="M1215,38l-79-38l-22,128l80-40L1215,38z"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="107.9999" y1="139.5001" x2="-2.083792e-04" y2="139.5001">
+		<stop  offset="0" style="stop-color:#C1E1BD"/>
+		<stop  offset="1" style="stop-color:#9ED2A0"/>
+	</linearGradient>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_3_)" d="M99,109L0,54l37,69l71,102L99,109z"/>
+	<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="1127" y1="138.0001" x2="1215" y2="138.0001">
+		<stop  offset="0" style="stop-color:#ACDFEB"/>
+		<stop  offset="1" style="stop-color:#66CBE0"/>
+	</linearGradient>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_4_)" d="M1150,94l65-56l-19,115l-69,85L1150,94z"/>
+	<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="98.9999" y1="166.0001" x2="1149.9999" y2="166.0001">
+		<stop  offset="0" style="stop-color:#D3EBE3"/>
+		<stop  offset="1" style="stop-color:#DEF0EA"/>
+	</linearGradient>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#SVGID_5_)" d="M1150,94l-22,144L108,225l-9-116L1150,94z"/>
+</g>
+</svg>
