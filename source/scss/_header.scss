@@ -11,10 +11,11 @@ header {
 		position: relative;
 	}
 
-	nav {
+	nav.header__nav {
 		margin-top: 35px;
 		ul {
 			li {
+				display: inline-block;
 				float: left;
 				margin-right: 4px;
 

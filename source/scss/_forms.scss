@@ -17,7 +17,7 @@
 	text-align: center;
 	color: #fff;
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: 600;
 	@include text-shadow(0 1px 0 #025851);
 
 
@@ -84,9 +84,8 @@ input[type="url"],
 textarea, .select {
 
 	@include placeholder {
-		color: #acacac;
-		font-size: 11px;
-		font-style: italic;
+		color: #807a7a;
+		font-size: 14px;
 	}
 
 	-webkit-appearance: none;
@@ -95,12 +94,12 @@ textarea, .select {
 
 	width: 300px;
 	height: 41px;
-	padding: 14px 16px;
+	padding: 13px 16px;
 
 	border: 1px solid #e0e0e0;
 	@include border-radius(3px);
 	@include background-clip(padding-box);
-	background-color: #2b357d;
+	background-color: #f7f7f7;
 	@include background-image(linear-gradient(to bottom, #fff 0%, #f7f7f7 100%));
 
 	
