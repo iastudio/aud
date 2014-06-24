@@ -7,6 +7,10 @@ header
 			include ../includes/logo
 		.header__name
 		h1.header__phone 8 (423) 260-72-88
+		if (active == 4 || active == 5 || active == 8 || active == 9)
+			.header__bg--image.header__bg--image--key
+		else
+			.header__bg--image.header__bg--image--chess
 	.container
 		nav
 			ul

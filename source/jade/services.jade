@@ -1,0 +1,35 @@
+- var active = 2
+- var pageName = 'Услуги'
+include includes/settings
+doctype html
+html(lang='ru').no-js
+  head
+    include includes/head
+  body
+    .page-wrap
+      include includes/header
+      main.content
+        .container
+          h1 Услуги
+        .container.services-list
+          .col-1-3
+            h5 Бухгалтерский учёт и аудит
+            ul
+              li: a(href="#") Аудиторские услуги
+              li: a(href="#") Налоги и налогообложение
+              li: a(href="#") Комплексное ведение бухгалтерского и налогового учета
+          .col-1-3
+            h5 Юридические услуги
+            ul
+              li: a(href="#") Правовое консультирование 
+              li: a(href="#") Представительство в судебных и налоговых органах 
+              li: a(href="#") Соблюдение интересов клиента  
+              li: a(href="#") Регистрация/перерегистрация ООО, ИП
+          .col-1-3
+            h5 Кадровый аутсорсинг
+            ul
+              li: a(href="#") Кадровый аудит
+              li: a(href="#") Ведение кадрового делопроизводства
+              li: a(href="#") Поиск и подбор персонала
+      include includes/footer
+    include includes/tail

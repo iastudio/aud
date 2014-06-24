@@ -39,7 +39,7 @@ header {
 		font-weight: 200;
 		float: right;
 		margin-right: 40px;
-		margin-top: 75px;
+		margin-top: 65px;
 		font-size: 28px;
 		color: #005b4e;
 	}
@@ -81,7 +81,7 @@ header {
 		width: 183px; height: 198px;
 		position: absolute;
 		top: -104px;
-		right: -157px;
+		right: -162px;
 		z-index: -1;
 
 		background-image: url(../i/header_bg_2.png);
@@ -89,6 +89,18 @@ header {
 		background-size: auto;
 		background-position: 0 0;
 		background-repeat: no-repeat;
+	}
+
+	.header__bg--image {
+		width: 220px; height: 220px;
+		position: absolute;
+		right: -80px; bottom: -50px;
+		&.header__bg--image--key {
+			background: url('../i/key.png') center center no-repeat;
+		}
+		&.header__bg--image--chess {
+			background: url('../i/chess-2.png') center center no-repeat;
+		}
 	}
 
 	#audlogo {

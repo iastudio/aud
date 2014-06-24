@@ -1,0 +1,45 @@
+
+- var active = 5
+- var pageName = 'Партнеры'
+include includes/settings
+doctype html
+html(lang='ru').no-js
+  head
+    include includes/head
+  body
+    .page-wrap
+      include includes/header
+      main.content
+        .container
+          aside.col-3
+            h4 Компания
+            nav
+              ul
+                li: a(href="#") о компании
+                li: a(href="#") фотогалерея
+                li.active: a(href="#") партнеры
+          .col-9
+            h1 Партнеры
+            .partners
+              .partners__item
+                a(href="#")
+                  .partners__item__img: img(src="i/partners/ms.png", width="250", height="110")
+                  span Microsoft
+              .partners__item
+                a(href="#")
+                  .partners__item__img: img(src="i/partners/cc.png", width="250", height="110")
+                  span Coca-Cola
+              .partners__item
+                a(href="#")
+                  .partners__item__img: img(src="i/partners/accenture.png", width="250", height="110")
+                  span Accenture
+              .partners__item
+                a(href="#")
+                  .partners__item__img: img(src="i/partners/bbc.png", width="250", height="110")
+                  span BBC
+              .partners__item
+                a(href="#")
+                  .partners__item__img: img(src="i/partners/enron.png", width="250", height="110")
+                  span Enron
+      include includes/footer
+    include includes/tail

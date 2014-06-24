@@ -1,0 +1,51 @@
+
+- var active = 8
+- var pageName = 'Фотогалерея'
+include includes/settings
+doctype html
+html(lang='ru').no-js
+  head
+    include includes/head
+  body
+    .page-wrap
+      include includes/header
+      main.content
+        .container
+          aside.col-3
+            h4 Компания
+            nav
+              ul
+                li: a(href="#") о компании
+                li.active: a(href="#") фотогалерея
+                li: a(href="#") партнеры
+          .col-9
+            h1 Фотогалерея
+            .gallery
+              .gallery__item
+                a(href="#")
+                  img(src="i/gallery/1.jpg")
+                  span Наша команда
+              .gallery__item
+                a(href="#")
+                  img(src="i/gallery/2.jpg")
+                  span Фотки с проверки ЗАО “СмартТРЕЙД”
+              .gallery__item
+                a(href="#")
+                  img(src="i/gallery/3.jpg")
+                  span Наш офис
+              .gallery__item
+                a(href="#")
+                  img(src="i/gallery/4.jpg")
+                  span Фотки с проверки ЗАО “СмартТРЕЙД”
+              .gallery__item
+                a(href="#")
+                  img(src="i/gallery/5.jpg")
+                  span Наш офис
+              .gallery__item
+                a(href="#")
+                  img(src="i/gallery/6.jpg")
+                  span Конференция август 2013
+
+              
+      include includes/footer
+    include includes/tail

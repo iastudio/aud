@@ -1,0 +1,35 @@
+- var active = 9
+- var pageName = 'Контакты'
+include includes/settings
+doctype html
+html(lang='ru').no-js
+  head
+    include includes/head
+  body
+    .page-wrap
+      include includes/header
+      main.content
+        .container
+          .col-8
+            h1 Контакты
+            p
+              strong Адрес: 
+              |г.Владивосток, ул.Станюковича, д.3, к.2 «Сердце океана»
+            p
+              strong Тел/факс: 
+              |8 (423) 279-02-18, 279-02-19, 260-72-88, 260-72-89
+            p
+              strong E-mail: 
+              |<a href="mailto:profauditcentre@gmail.com">profauditcentre@gmail.com</a> <a href="http://www.profauditcentre.com">www.profauditcentre.com</a>
+            #map
+
+          .col-5
+            h2 Отправить сообщение
+            form
+              input(type="text", placeholder="Ваше имя")
+              input(type="email", placeholder="Ваш e-mail")
+              textarea(placeholder="Текст сообщения")
+              input(type="submit", value="Отправить сообщение")
+        
+      include includes/footer
+    include includes/tail
